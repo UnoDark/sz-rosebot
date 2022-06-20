@@ -1,8 +1,8 @@
 {
-    "name": "Telegram group manager rose bot",
+    "name": "Hinata Robot",
     "description": "szrose is an all in one group management bot made for managing your group effectively with some advance security tools & Suit For All Your Needs ❤️",
-    "repository": "https://github.com/szsupunma/sz-rosebot",
-    "logo": "https://telegra.ph/file/38d48fa6ce357927d6d12.jpg",
+    "repository": "https://github.com/UnoDark/sz-rosebot",
+    "logo": "https://te.legra.ph/file/d1ccc90659b4d323ddf32.jpg",
     "keywords": [
     "python3",
     "telegram",
