@@ -273,12 +273,12 @@ async def startcq(client,CallbackQuery, _):
             text=f"""
 👋 Hey there {CallbackQuery.from_user.mention}, 
 
-   My name is Rose ,an  advanced telegram Group management Bot For help 
+   My name is Hinata ,an  advanced telegram Group management Bot For help 
 You Protect Your Groups & Suit For All Your Needs. 
 I currently manage about `{len(served_chats)}` groups.I have over `{len(served_users)}` users
 
  ⚒ Send Me /help For Get Commands. 
-👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @supunma
+👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @OneUnoOnly
 """,
             disable_web_page_preview=True,
             reply_markup=home_keyboard_pm)
@@ -335,7 +335,7 @@ async def help_button(client, query, _):
                 "Here is the help for", HELPABLE[module].__MODULE__
             )
             + HELPABLE[module].__HELP__
-            + "\n👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @supunma"
+            + "\n👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @OneUnoOnly"
         )
         if hasattr(HELPABLE[module], "__helpbtns__"):
                        button = (HELPABLE[module].__helpbtns__) + [[InlineKeyboardButton("« Back", callback_data="bot_commands")]]
